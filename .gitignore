@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-delete.py
-=======
-/data
->>>>>>> 74b747e (DVC initialization with data versioning1)
 
-#to rsolve conflict while rebase so adding this comment.DS_Store
+delete.py
+/data
+#to rsolve conflict while rebase so adding this comment ""
+
+.DS_Store
+S3/
