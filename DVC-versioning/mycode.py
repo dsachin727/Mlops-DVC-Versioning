@@ -16,3 +16,10 @@ os.makedirs(data_dir, exist_ok=True)
 filepath = os.path.join(data_dir, 'sample_data.csv')
 
 df.to_csv(filepath, index=False)
+
+# # Adding new row to df for V2
+new_row_loc = {"Name": "Daren", "Age": 20, "Country": "Germany"}
+df.loc[len(df.index)] = new_row_loc
+
+#to update to csv file
+df.to_csv(filepath, index=False)
