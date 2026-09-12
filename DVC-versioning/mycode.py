@@ -18,7 +18,7 @@ filepath = os.path.join(data_dir, 'sample_data.csv')
 df.to_csv(filepath, index=False)
 
 # # Adding new row to df for V2
-new_row_loc = {"Name": "Daren", "Age": 20, "Country": "Germany"}
+new_row_loc = {"Name": "Gita", "Age": 26, "Country": "India"}
 df.loc[len(df.index)] = new_row_loc
 
 #to update to csv file
